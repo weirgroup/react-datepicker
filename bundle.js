@@ -938,7 +938,7 @@
 
 	var _example_components2 = _interopRequireDefault(_example_components);
 
-	var _hero_example = __webpack_require__(394);
+	var _hero_example = __webpack_require__(390);
 
 	var _hero_example2 = _interopRequireDefault(_hero_example);
 
@@ -1090,189 +1090,193 @@
 
 	var _default2 = _interopRequireDefault(_default);
 
-	var _code_example_component = __webpack_require__(347);
+	var _code_example_component = __webpack_require__(342);
 
 	var _code_example_component2 = _interopRequireDefault(_code_example_component);
 
-	var _custom_date_format = __webpack_require__(348);
+	var _custom_date_format = __webpack_require__(343);
 
 	var _custom_date_format2 = _interopRequireDefault(_custom_date_format);
 
-	var _custom_class_name = __webpack_require__(349);
+	var _custom_class_name = __webpack_require__(344);
 
 	var _custom_class_name2 = _interopRequireDefault(_custom_class_name);
 
-	var _custom_calendar_class_name = __webpack_require__(350);
+	var _custom_calendar_class_name = __webpack_require__(345);
 
 	var _custom_calendar_class_name2 = _interopRequireDefault(_custom_calendar_class_name);
 
-	var _custom_day_class_names = __webpack_require__(351);
+	var _custom_day_class_names = __webpack_require__(346);
 
 	var _custom_day_class_names2 = _interopRequireDefault(_custom_day_class_names);
 
-	var _placeholder_text = __webpack_require__(352);
+	var _placeholder_text = __webpack_require__(347);
 
 	var _placeholder_text2 = _interopRequireDefault(_placeholder_text);
 
-	var _specific_date_range = __webpack_require__(353);
+	var _specific_date_range = __webpack_require__(348);
 
 	var _specific_date_range2 = _interopRequireDefault(_specific_date_range);
 
-	var _locale = __webpack_require__(354);
+	var _locale = __webpack_require__(349);
 
 	var _locale2 = _interopRequireDefault(_locale);
 
-	var _exclude_dates = __webpack_require__(355);
+	var _exclude_dates = __webpack_require__(350);
 
 	var _exclude_dates2 = _interopRequireDefault(_exclude_dates);
 
-	var _highlight_dates = __webpack_require__(356);
+	var _highlight_dates = __webpack_require__(351);
 
 	var _highlight_dates2 = _interopRequireDefault(_highlight_dates);
 
-	var _highlight_dates_with_ranges = __webpack_require__(357);
+	var _highlight_dates_with_ranges = __webpack_require__(352);
 
 	var _highlight_dates_with_ranges2 = _interopRequireDefault(_highlight_dates_with_ranges);
 
-	var _include_dates = __webpack_require__(358);
+	var _include_dates = __webpack_require__(353);
 
 	var _include_dates2 = _interopRequireDefault(_include_dates);
 
-	var _filter_dates = __webpack_require__(359);
+	var _filter_dates = __webpack_require__(354);
 
 	var _filter_dates2 = _interopRequireDefault(_filter_dates);
 
-	var _disabled = __webpack_require__(360);
+	var _disabled = __webpack_require__(355);
 
 	var _disabled2 = _interopRequireDefault(_disabled);
 
-	var _disabled_keyboard_navigation = __webpack_require__(361);
+	var _disabled_keyboard_navigation = __webpack_require__(356);
 
 	var _disabled_keyboard_navigation2 = _interopRequireDefault(_disabled_keyboard_navigation);
 
-	var _clear_input = __webpack_require__(362);
+	var _clear_input = __webpack_require__(357);
 
 	var _clear_input2 = _interopRequireDefault(_clear_input);
 
-	var _on_blur_callbacks = __webpack_require__(363);
+	var _on_blur_callbacks = __webpack_require__(358);
 
 	var _on_blur_callbacks2 = _interopRequireDefault(_on_blur_callbacks);
 
-	var _configurePopper = __webpack_require__(364);
+	var _configurePopper = __webpack_require__(359);
 
 	var _configurePopper2 = _interopRequireDefault(_configurePopper);
 
-	var _date_range = __webpack_require__(365);
+	var _date_range = __webpack_require__(360);
 
 	var _date_range2 = _interopRequireDefault(_date_range);
 
-	var _date_range_with_show_disabled_navigation = __webpack_require__(366);
+	var _date_range_with_show_disabled_navigation = __webpack_require__(361);
 
 	var _date_range_with_show_disabled_navigation2 = _interopRequireDefault(_date_range_with_show_disabled_navigation);
 
-	var _tab_index = __webpack_require__(367);
+	var _tab_index = __webpack_require__(362);
 
 	var _tab_index2 = _interopRequireDefault(_tab_index);
 
-	var _year_dropdown = __webpack_require__(368);
+	var _year_dropdown = __webpack_require__(363);
 
 	var _year_dropdown2 = _interopRequireDefault(_year_dropdown);
 
-	var _month_dropdown = __webpack_require__(369);
+	var _month_dropdown = __webpack_require__(364);
 
 	var _month_dropdown2 = _interopRequireDefault(_month_dropdown);
 
-	var _month_year_dropdown = __webpack_require__(370);
+	var _month_year_dropdown = __webpack_require__(365);
 
 	var _month_year_dropdown2 = _interopRequireDefault(_month_year_dropdown);
 
-	var _month_dropdown_short = __webpack_require__(371);
+	var _month_dropdown_short = __webpack_require__(366);
 
 	var _month_dropdown_short2 = _interopRequireDefault(_month_dropdown_short);
 
-	var _year_select_dropdown = __webpack_require__(372);
+	var _year_select_dropdown = __webpack_require__(367);
 
 	var _year_select_dropdown2 = _interopRequireDefault(_year_select_dropdown);
 
-	var _today = __webpack_require__(373);
+	var _today = __webpack_require__(368);
 
 	var _today2 = _interopRequireDefault(_today);
 
-	var _timezone_date = __webpack_require__(374);
+	var _timezone_date = __webpack_require__(369);
 
 	var _timezone_date2 = _interopRequireDefault(_timezone_date);
 
-	var _inline = __webpack_require__(375);
+	var _inline = __webpack_require__(370);
 
 	var _inline2 = _interopRequireDefault(_inline);
 
-	var _open_to_date = __webpack_require__(376);
+	var _open_to_date = __webpack_require__(371);
 
 	var _open_to_date2 = _interopRequireDefault(_open_to_date);
 
-	var _fixed_calendar = __webpack_require__(377);
+	var _fixed_calendar = __webpack_require__(372);
 
 	var _fixed_calendar2 = _interopRequireDefault(_fixed_calendar);
 
-	var _week_numbers = __webpack_require__(378);
+	var _week_numbers = __webpack_require__(373);
 
 	var _week_numbers2 = _interopRequireDefault(_week_numbers);
 
-	var _custom_input = __webpack_require__(379);
+	var _custom_input = __webpack_require__(374);
 
 	var _custom_input2 = _interopRequireDefault(_custom_input);
 
-	var _multi_month = __webpack_require__(380);
+	var _multi_month = __webpack_require__(375);
 
 	var _multi_month2 = _interopRequireDefault(_multi_month);
 
-	var _multi_month_drp = __webpack_require__(381);
+	var _multi_month_drp = __webpack_require__(376);
 
 	var _multi_month_drp2 = _interopRequireDefault(_multi_month_drp);
 
-	var _children = __webpack_require__(382);
+	var _children = __webpack_require__(377);
 
 	var _children2 = _interopRequireDefault(_children);
 
-	var _portal = __webpack_require__(383);
+	var _portal = __webpack_require__(378);
 
 	var _portal2 = _interopRequireDefault(_portal);
 
-	var _inline_portal = __webpack_require__(384);
+	var _inline_portal = __webpack_require__(379);
 
 	var _inline_portal2 = _interopRequireDefault(_inline_portal);
 
-	var _raw_change = __webpack_require__(385);
+	var _raw_change = __webpack_require__(380);
 
 	var _raw_change2 = _interopRequireDefault(_raw_change);
 
-	var _show_time = __webpack_require__(386);
+	var _show_time = __webpack_require__(381);
 
 	var _show_time2 = _interopRequireDefault(_show_time);
 
-	var _exclude_times = __webpack_require__(387);
+	var _show_time_only = __webpack_require__(382);
+
+	var _show_time_only2 = _interopRequireDefault(_show_time_only);
+
+	var _exclude_times = __webpack_require__(383);
 
 	var _exclude_times2 = _interopRequireDefault(_exclude_times);
 
-	var _exclude_time_period = __webpack_require__(388);
+	var _exclude_time_period = __webpack_require__(384);
 
 	var _exclude_time_period2 = _interopRequireDefault(_exclude_time_period);
 
-	var _include_times = __webpack_require__(389);
+	var _include_times = __webpack_require__(385);
 
 	var _include_times2 = _interopRequireDefault(_include_times);
 
-	var _dont_close_onSelect = __webpack_require__(390);
+	var _dont_close_onSelect = __webpack_require__(386);
 
 	var _dont_close_onSelect2 = _interopRequireDefault(_dont_close_onSelect);
 
-	var _open_by_default = __webpack_require__(391);
+	var _open_by_default = __webpack_require__(387);
 
 	var _open_by_default2 = _interopRequireDefault(_open_by_default);
 
-	__webpack_require__(392);
+	__webpack_require__(388);
 
-	__webpack_require__(393);
+	__webpack_require__(389);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1300,6 +1304,9 @@
 	    }, {
 	      title: 'Select Time',
 	      component: _react2.default.createElement(_show_time2.default, null)
+	    }, {
+	      title: 'Select Time Only',
+	      component: _react2.default.createElement(_show_time_only2.default, null)
 	    }, {
 	      title: 'Exclude Times',
 	      component: _react2.default.createElement(_exclude_times2.default, null)
@@ -19209,7 +19216,8 @@
 	        preSelection: _this.props.selected ? (0, _date_utils.newDate)(_this.props.selected) : boundedPreSelection,
 	        // transforming highlighted days (perhaps nested array)
 	        // to flat Map for faster access in day.jsx
-	        highlightDates: (0, _date_utils.getHightLightDaysMap)(_this.props.highlightDates)
+	        highlightDates: (0, _date_utils.getHightLightDaysMap)(_this.props.highlightDates),
+	        focused: false
 	      };
 	    };
 
@@ -19239,6 +19247,7 @@
 	          _this.setOpen(true);
 	        }
 	      }
+	      _this.setState({ focused: true });
 	    };
 
 	    _this.cancelFocusInput = function () {
@@ -19263,6 +19272,7 @@
 	      } else {
 	        _this.props.onBlur(event);
 	      }
+	      _this.setState({ focused: false });
 	    };
 
 	    _this.handleCalendarClickOutside = function (event) {
@@ -19366,7 +19376,7 @@
 
 	      _this.props.onChange(changedDate);
 	      _this.setOpen(false);
-	      _this.setState({ inputValue: changedDate.format(_this.props.dateFormat) });
+	      _this.setState({ inputValue: null });
 	    };
 
 	    _this.onInputClick = function () {
@@ -19512,6 +19522,7 @@
 	          onYearChange: _this.props.onYearChange,
 	          dayClassName: _this.props.dayClassName,
 	          showTimeSelect: _this.props.showTimeSelect,
+	          showTimeSelectOnly: _this.props.showTimeSelectOnly,
 	          onTimeChange: _this.handleTimeChange,
 	          timeFormat: _this.props.timeFormat,
 	          timeIntervals: _this.props.timeIntervals,
@@ -19520,7 +19531,8 @@
 	          excludeTimes: _this.props.excludeTimes,
 	          timeCaption: _this.props.timeCaption,
 	          className: _this.props.calendarClassName,
-	          yearDropdownItemNumber: _this.props.yearDropdownItemNumber },
+	          yearDropdownItemNumber: _this.props.yearDropdownItemNumber
+	        },
 	        _this.props.children
 	      );
 	    };
@@ -19544,7 +19556,8 @@
 	        return _react2.default.createElement("a", {
 	          className: "react-datepicker__close-icon",
 	          href: "javascript:void(0)",
-	          onClick: _this.onClearClick });
+	          onClick: _this.onClearClick
+	        });
 	      } else {
 	        return null;
 	      }
@@ -19565,6 +19578,7 @@
 	        highlightDates: (0, _date_utils.getHightLightDaysMap)(nextProps.highlightDates)
 	      });
 	    }
+	    if (!this.state.focused) this.setState({ inputValue: null });
 	  };
 
 	  DatePicker.prototype.componentWillUnmount = function componentWillUnmount() {
@@ -19608,7 +19622,8 @@
 	      ),
 	      popperContainer: this.props.popperContainer,
 	      popperComponent: calendar,
-	      popperPlacement: this.props.popperPlacement });
+	      popperPlacement: this.props.popperPlacement
+	    });
 	  };
 
 	  return DatePicker;
@@ -19624,8 +19639,8 @@
 	  className: _propTypes2.default.string,
 	  customInput: _propTypes2.default.element,
 	  customInputRef: _propTypes2.default.string,
-	  dateFormat: _propTypes2.default.oneOfType([// eslint-disable-line react/no-unused-prop-types
-	  _propTypes2.default.string, _propTypes2.default.array]),
+	  // eslint-disable-next-line react/no-unused-prop-types
+	  dateFormat: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.array]),
 	  dateFormatCalendar: _propTypes2.default.string,
 	  dayClassName: _propTypes2.default.func,
 	  disabled: _propTypes2.default.bool,
@@ -19692,6 +19707,7 @@
 	  yearDropdownItemNumber: _propTypes2.default.number,
 	  shouldCloseOnSelect: _propTypes2.default.bool,
 	  showTimeSelect: _propTypes2.default.bool,
+	  showTimeSelectOnly: _propTypes2.default.bool,
 	  timeFormat: _propTypes2.default.string,
 	  timeIntervals: _propTypes2.default.number,
 	  minTime: _propTypes2.default.object,
@@ -19923,10 +19939,9 @@
 	    };
 
 	    _this.renderPreviousMonthButton = function () {
-
 	      var allPrevDaysDisabled = (0, _date_utils.allDaysDisabledBefore)(_this.state.date, "month", _this.props);
 
-	      if (!_this.props.forceShowMonthNavigation && !_this.props.showDisabledMonthNavigation && allPrevDaysDisabled) {
+	      if (!_this.props.forceShowMonthNavigation && !_this.props.showDisabledMonthNavigation && allPrevDaysDisabled || _this.props.showTimeSelectOnly) {
 	        return;
 	      }
 
@@ -19939,16 +19954,17 @@
 	        clickHandler = null;
 	      }
 
-	      return _react2.default.createElement("button", { type: "button",
+	      return _react2.default.createElement("button", {
+	        type: "button",
 	        className: classes.join(" "),
-	        onClick: clickHandler });
+	        onClick: clickHandler
+	      });
 	    };
 
 	    _this.renderNextMonthButton = function () {
-
 	      var allNextDaysDisabled = (0, _date_utils.allDaysDisabledAfter)(_this.state.date, "month", _this.props);
 
-	      if (!_this.props.forceShowMonthNavigation && !_this.props.showDisabledMonthNavigation && allNextDaysDisabled) {
+	      if (!_this.props.forceShowMonthNavigation && !_this.props.showDisabledMonthNavigation && allNextDaysDisabled || _this.props.showTimeSelectOnly) {
 	        return;
 	      }
 
@@ -19967,7 +19983,11 @@
 	        clickHandler = null;
 	      }
 
-	      return _react2.default.createElement("button", { type: "button", className: classes.join(" "), onClick: clickHandler });
+	      return _react2.default.createElement("button", {
+	        type: "button",
+	        className: classes.join(" "),
+	        onClick: clickHandler
+	      });
 	    };
 
 	    _this.renderCurrentMonth = function () {
@@ -20008,7 +20028,8 @@
 	        maxDate: _this.props.maxDate,
 	        year: (0, _date_utils.getYear)(_this.state.date),
 	        scrollableYearDropdown: _this.props.scrollableYearDropdown,
-	        yearDropdownItemNumber: _this.props.yearDropdownItemNumber });
+	        yearDropdownItemNumber: _this.props.yearDropdownItemNumber
+	      });
 	    };
 
 	    _this.renderMonthDropdown = function () {
@@ -20023,7 +20044,8 @@
 	        dateFormat: _this.props.dateFormat,
 	        onChange: _this.changeMonth,
 	        month: (0, _date_utils.getMonth)(_this.state.date),
-	        useShortMonthInDropdown: _this.props.useShortMonthInDropdown });
+	        useShortMonthInDropdown: _this.props.useShortMonthInDropdown
+	      });
 	    };
 
 	    _this.renderMonthYearDropdown = function () {
@@ -20045,7 +20067,7 @@
 	    };
 
 	    _this.renderTodayButton = function () {
-	      if (!_this.props.todayButton) {
+	      if (!_this.props.todayButton || _this.props.showTimeSelectOnly) {
 	        return;
 	      }
 	      return _react2.default.createElement(
@@ -20054,12 +20076,17 @@
 	          className: "react-datepicker__today-button",
 	          onClick: function onClick(e) {
 	            return _this.props.onSelect((0, _date_utils.getStartOfDate)((0, _date_utils.now)(_this.props.utcOffset)), e);
-	          } },
+	          }
+	        },
 	        _this.props.todayButton
 	      );
 	    };
 
 	    _this.renderMonths = function () {
+	      if (_this.props.showTimeSelectOnly) {
+	        return;
+	      }
+
 	      var monthList = [];
 	      for (var i = 0; i < _this.props.monthsShown; ++i) {
 	        var monthDate = (0, _date_utils.addMonths)((0, _date_utils.cloneDate)(_this.state.date), i);
@@ -20071,7 +20098,8 @@
 	            ref: function ref(div) {
 	              _this.monthContainer = div;
 	            },
-	            className: "react-datepicker__month-container" },
+	            className: "react-datepicker__month-container"
+	          },
 	          _react2.default.createElement(
 	            "div",
 	            { className: "react-datepicker__header" },
@@ -20080,7 +20108,8 @@
 	              "div",
 	              {
 	                className: "react-datepicker__header__dropdown react-datepicker__header__dropdown--" + _this.props.dropdownMode,
-	                onFocus: _this.handleDropdownFocus },
+	                onFocus: _this.handleDropdownFocus
+	              },
 	              _this.renderMonthDropdown(i !== 0),
 	              _this.renderMonthYearDropdown(i !== 0),
 	              _this.renderYearDropdown(i !== 0)
@@ -20116,7 +20145,8 @@
 	            startDate: _this.props.startDate,
 	            endDate: _this.props.endDate,
 	            peekNextMonth: _this.props.peekNextMonth,
-	            utcOffset: _this.props.utcOffset })
+	            utcOffset: _this.props.utcOffset
+	          })
 	        ));
 	      }
 	      return monthList;
@@ -20139,7 +20169,8 @@
 	          showMonthYearDropdown: _this.props.showMonthYearDropdown,
 	          showYearDropdown: _this.props.showYearDropdown,
 	          withPortal: _this.props.withPortal,
-	          monthRef: _this.state.monthContainer });
+	          monthRef: _this.state.monthContainer
+	        });
 	      }
 	    };
 
@@ -20180,7 +20211,11 @@
 	  Calendar.prototype.render = function render() {
 	    return _react2.default.createElement(
 	      "div",
-	      { className: (0, _classnames2.default)("react-datepicker", this.props.className) },
+	      {
+	        className: (0, _classnames2.default)("react-datepicker", this.props.className, {
+	          "react-datepicker--time-only": this.props.showTimeSelectOnly
+	        })
+	      },
 	      _react2.default.createElement("div", { className: "react-datepicker__triangle" }),
 	      this.renderPreviousMonthButton(),
 	      this.renderNextMonthButton(),
@@ -20222,6 +20257,7 @@
 	  onSelect: _propTypes2.default.func.isRequired,
 	  onWeekSelect: _propTypes2.default.func,
 	  showTimeSelect: _propTypes2.default.bool,
+	  showTimeSelectOnly: _propTypes2.default.bool,
 	  timeFormat: _propTypes2.default.string,
 	  timeIntervals: _propTypes2.default.number,
 	  onTimeChange: _propTypes2.default.func,
@@ -20325,7 +20361,8 @@
 	        {
 	          value: _this.props.year,
 	          className: "react-datepicker__year-select",
-	          onChange: _this.onSelectChange },
+	          onChange: _this.onSelectChange
+	        },
 	        _this.renderSelectOptions()
 	      );
 	    }, _this.renderReadView = function (visible) {
@@ -20337,7 +20374,8 @@
 	          className: "react-datepicker__year-read-view",
 	          onClick: function onClick(event) {
 	            return _this.toggleDropdown(event);
-	          } },
+	          }
+	        },
 	        _react2.default.createElement("span", { className: "react-datepicker__year-read-view--down-arrow" }),
 	        _react2.default.createElement(
 	          "span",
@@ -20355,7 +20393,8 @@
 	        minDate: _this.props.minDate,
 	        maxDate: _this.props.maxDate,
 	        scrollableYearDropdown: _this.props.scrollableYearDropdown,
-	        yearDropdownItemNumber: _this.props.yearDropdownItemNumber });
+	        yearDropdownItemNumber: _this.props.yearDropdownItemNumber
+	      });
 	    }, _this.renderScrollMode = function () {
 	      var dropdownVisible = _this.state.dropdownVisible;
 
@@ -20404,7 +20443,8 @@
 	    return _react2.default.createElement(
 	      "div",
 	      {
-	        className: "react-datepicker__year-dropdown-container react-datepicker__year-dropdown-container--" + this.props.dropdownMode },
+	        className: "react-datepicker__year-dropdown-container react-datepicker__year-dropdown-container--" + this.props.dropdownMode
+	      },
 	      renderedDropdown
 	    );
 	  };
@@ -20664,10 +20704,12 @@
 	      var options = _this.state.yearsList.map(function (year) {
 	        return _react2.default.createElement(
 	          "div",
-	          { className: selectedYear === year ? 'react-datepicker__year-option --selected_year' : 'react-datepicker__year-option',
+	          {
+	            className: selectedYear === year ? "react-datepicker__year-option --selected_year" : "react-datepicker__year-option",
 	            key: year,
 	            ref: year,
-	            onClick: _this.onChange.bind(_this, year) },
+	            onClick: _this.onChange.bind(_this, year)
+	          },
 	          selectedYear === year ? _react2.default.createElement(
 	            "span",
 	            { className: "react-datepicker__year-option--selected" },
@@ -20689,7 +20731,8 @@
 	            className: "react-datepicker__year-option",
 	            ref: "upcoming",
 	            key: "upcoming",
-	            onClick: _this.incrementYears },
+	            onClick: _this.incrementYears
+	          },
 	          _react2.default.createElement("a", { className: "react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-upcoming" })
 	        ));
 	      }
@@ -20703,7 +20746,8 @@
 	            className: "react-datepicker__year-option",
 	            ref: "previous",
 	            key: "previous",
-	            onClick: _this.decrementYears },
+	            onClick: _this.decrementYears
+	          },
 	          _react2.default.createElement("a", { className: "react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous" })
 	        ));
 	      }
@@ -38277,7 +38321,8 @@
 	          className: "react-datepicker__month-select",
 	          onChange: function onChange(e) {
 	            return _this.onChange(e.target.value);
-	          } },
+	          }
+	        },
 	        _this.renderSelectOptions(monthNames)
 	      );
 	    }, _this.renderReadView = function (visible, monthNames) {
@@ -38287,7 +38332,8 @@
 	          key: "read",
 	          style: { visibility: visible ? "visible" : "hidden" },
 	          className: "react-datepicker__month-read-view",
-	          onClick: _this.toggleDropdown },
+	          onClick: _this.toggleDropdown
+	        },
 	        _react2.default.createElement("span", { className: "react-datepicker__month-read-view--down-arrow" }),
 	        _react2.default.createElement(
 	          "span",
@@ -38302,7 +38348,8 @@
 	        month: _this.props.month,
 	        monthNames: monthNames,
 	        onChange: _this.onChange,
-	        onCancel: _this.toggleDropdown });
+	        onCancel: _this.toggleDropdown
+	      });
 	    }, _this.renderScrollMode = function (monthNames) {
 	      var dropdownVisible = _this.state.dropdownVisible;
 
@@ -38346,7 +38393,8 @@
 	    return _react2.default.createElement(
 	      "div",
 	      {
-	        className: "react-datepicker__month-dropdown-container react-datepicker__month-dropdown-container--" + this.props.dropdownMode },
+	        className: "react-datepicker__month-dropdown-container react-datepicker__month-dropdown-container--" + this.props.dropdownMode
+	      },
 	      renderedDropdown
 	    );
 	  };
@@ -38404,10 +38452,12 @@
 	      return _this.props.monthNames.map(function (month, i) {
 	        return _react2.default.createElement(
 	          "div",
-	          { className: _this.props.month === i ? 'react-datepicker__month-option --selected_month' : 'react-datepicker__month-option',
+	          {
+	            className: _this.props.month === i ? "react-datepicker__month-option --selected_month" : "react-datepicker__month-option",
 	            key: month,
 	            ref: month,
-	            onClick: _this.onChange.bind(_this, i) },
+	            onClick: _this.onChange.bind(_this, i)
+	          },
 	          _this.props.month === i ? _react2.default.createElement(
 	            "span",
 	            { className: "react-datepicker__month-option--selected" },
@@ -38446,7 +38496,7 @@
 /* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	exports.__esModule = true;
 
@@ -38499,10 +38549,9 @@
 	      var options = [];
 
 	      while (!(0, _date_utils.isAfter)(currDate, lastDate)) {
-
 	        var timepoint = currDate.valueOf();
 	        options.push(_react2.default.createElement(
-	          'option',
+	          "option",
 	          { key: timepoint, value: timepoint },
 	          (0, _date_utils.formatDate)(currDate, _this.props.dateFormat)
 	        ));
@@ -38515,43 +38564,46 @@
 	      _this.onChange(e.target.value);
 	    }, _this.renderSelectMode = function () {
 	      return _react2.default.createElement(
-	        'select',
+	        "select",
 	        {
 	          value: (0, _date_utils.getStartOfMonth)(_this.props.date).valueOf(),
-	          className: 'react-datepicker__month-year-select',
-	          onChange: _this.onSelectChange },
+	          className: "react-datepicker__month-year-select",
+	          onChange: _this.onSelectChange
+	        },
 	        _this.renderSelectOptions()
 	      );
 	    }, _this.renderReadView = function (visible) {
-
 	      var yearMonth = (0, _date_utils.formatDate)((0, _date_utils.localizeDate)((0, _date_utils.newDate)(_this.props.date), _this.props.locale), _this.props.dateFormat);
 
 	      return _react2.default.createElement(
-	        'div',
-	        { key: 'read',
-	          style: { visibility: visible ? 'visible' : 'hidden' },
-	          className: 'react-datepicker__month-year-read-view',
+	        "div",
+	        {
+	          key: "read",
+	          style: { visibility: visible ? "visible" : "hidden" },
+	          className: "react-datepicker__month-year-read-view",
 	          onClick: function onClick(event) {
 	            return _this.toggleDropdown(event);
-	          } },
-	        _react2.default.createElement('span', { className: 'react-datepicker__month-year-read-view--down-arrow' }),
+	          }
+	        },
+	        _react2.default.createElement("span", { className: "react-datepicker__month-year-read-view--down-arrow" }),
 	        _react2.default.createElement(
-	          'span',
-	          { className: 'react-datepicker__month-year-read-view--selected-month-year' },
+	          "span",
+	          { className: "react-datepicker__month-year-read-view--selected-month-year" },
 	          yearMonth
 	        )
 	      );
 	    }, _this.renderDropdown = function () {
 	      return _react2.default.createElement(WrappedMonthYearDropdownOptions, {
-	        key: 'dropdown',
-	        ref: 'options',
+	        key: "dropdown",
+	        ref: "options",
 	        date: _this.props.date,
 	        dateFormat: _this.props.dateFormat,
 	        onChange: _this.onChange,
 	        onCancel: _this.toggleDropdown,
 	        minDate: (0, _date_utils.localizeDate)(_this.props.minDate, _this.props.locale),
 	        maxDate: (0, _date_utils.localizeDate)(_this.props.maxDate, _this.props.locale),
-	        scrollableMonthYearDropdown: _this.props.scrollableMonthYearDropdown });
+	        scrollableMonthYearDropdown: _this.props.scrollableMonthYearDropdown
+	      });
 	    }, _this.renderScrollMode = function () {
 	      var dropdownVisible = _this.state.dropdownVisible;
 
@@ -38580,18 +38632,19 @@
 	  MonthYearDropdown.prototype.render = function render() {
 	    var renderedDropdown = void 0;
 	    switch (this.props.dropdownMode) {
-	      case 'scroll':
+	      case "scroll":
 	        renderedDropdown = this.renderScrollMode();
 	        break;
-	      case 'select':
+	      case "select":
 	        renderedDropdown = this.renderSelectMode();
 	        break;
 	    }
 
 	    return _react2.default.createElement(
-	      'div',
+	      "div",
 	      {
-	        className: 'react-datepicker__month-year-dropdown-container react-datepicker__month-year-dropdown-container--' + this.props.dropdownMode },
+	        className: "react-datepicker__month-year-dropdown-container react-datepicker__month-year-dropdown-container--" + this.props.dropdownMode
+	      },
 	      renderedDropdown
 	    );
 	  };
@@ -38600,7 +38653,7 @@
 	}(_react2.default.Component);
 
 	MonthYearDropdown.propTypes = {
-	  dropdownMode: _propTypes2.default.oneOf(['scroll', 'select']).isRequired,
+	  dropdownMode: _propTypes2.default.oneOf(["scroll", "select"]).isRequired,
 	  dateFormat: _propTypes2.default.string.isRequired,
 	  locale: _propTypes2.default.string,
 	  maxDate: _propTypes2.default.object.isRequired,
@@ -38615,7 +38668,7 @@
 /* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	exports.__esModule = true;
 
@@ -38665,23 +38718,23 @@
 	    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
 
 	    _this.renderOptions = function () {
-
 	      return _this.state.monthYearsList.map(function (monthYear) {
-
 	        var monthYearPoint = monthYear.valueOf();
 
 	        var isSameMonthYear = (0, _date_utils.isSameYear)(_this.props.date, monthYear) && (0, _date_utils.isSameMonth)(_this.props.date, monthYear);
 
 	        return _react2.default.createElement(
-	          'div',
-	          { className: isSameMonthYear ? 'react-datepicker__month-year-option --selected_month-year' : 'react-datepicker__month-year-option',
+	          "div",
+	          {
+	            className: isSameMonthYear ? "react-datepicker__month-year-option --selected_month-year" : "react-datepicker__month-year-option",
 	            key: monthYearPoint,
 	            ref: monthYearPoint,
-	            onClick: _this.onChange.bind(_this, monthYearPoint) },
+	            onClick: _this.onChange.bind(_this, monthYearPoint)
+	          },
 	          isSameMonthYear ? _react2.default.createElement(
-	            'span',
-	            { className: 'react-datepicker__month-year-option--selected' },
-	            '\u2713'
+	            "span",
+	            { className: "react-datepicker__month-year-option--selected" },
+	            "\u2713"
 	          ) : "",
 	          (0, _date_utils.formatDate)(monthYear, _this.props.dateFormat)
 	        );
@@ -38704,12 +38757,12 @@
 
 	  MonthYearDropdownOptions.prototype.render = function render() {
 	    var dropdownClass = (0, _classnames2.default)({
-	      'react-datepicker__month-year-dropdown': true,
-	      'react-datepicker__month-year-dropdown--scrollable': this.props.scrollableMonthYearDropdown
+	      "react-datepicker__month-year-dropdown": true,
+	      "react-datepicker__month-year-dropdown--scrollable": this.props.scrollableMonthYearDropdown
 	    });
 
 	    return _react2.default.createElement(
-	      'div',
+	      "div",
 	      { className: dropdownClass },
 	      this.renderOptions()
 	    );
@@ -38829,7 +38882,8 @@
 	          startDate: _this.props.startDate,
 	          endDate: _this.props.endDate,
 	          dayClassName: _this.props.dayClassName,
-	          utcOffset: _this.props.utcOffset }));
+	          utcOffset: _this.props.utcOffset
+	        }));
 
 	        if (breakAfterNextPush) break;
 
@@ -38869,7 +38923,8 @@
 	      {
 	        className: this.getClassNames(),
 	        onMouseLeave: this.handleMouseLeave,
-	        role: "listbox" },
+	        role: "listbox"
+	      },
 	      this.renderWeeks()
 	    );
 	  };
@@ -39004,7 +39059,8 @@
 	          startDate: _this.props.startDate,
 	          endDate: _this.props.endDate,
 	          dayClassName: _this.props.dayClassName,
-	          utcOffset: _this.props.utcOffset });
+	          utcOffset: _this.props.utcOffset
+	        });
 	      }));
 	    }, _temp), _possibleConstructorReturn(_this, _ret);
 	  }
@@ -39235,7 +39291,8 @@
 	        onClick: this.handleClick,
 	        onMouseEnter: this.handleMouseEnter,
 	        "aria-label": "day-" + (0, _date_utils.getDate)(this.props.day),
-	        role: "option" },
+	        role: "option"
+	      },
 	      (0, _date_utils.getDate)(this.props.day)
 	    );
 	  };
@@ -39319,7 +39376,8 @@
 	      {
 	        className: (0, _classnames2.default)(weekNumberClasses),
 	        "aria-label": "week-" + this.props.weekNumber,
-	        onClick: this.handleClick },
+	        onClick: this.handleClick
+	      },
 	      this.props.weekNumber
 	    );
 	  };
@@ -39409,7 +39467,8 @@
 	          {
 	            key: i,
 	            onClick: _this.handleClick.bind(_this, time),
-	            className: _this.liClasses(time, currH, currM) },
+	            className: _this.liClasses(time, currH, currM)
+	          },
 	          (0, _date_utils.formatDate)(time, format)
 	        );
 	      });
@@ -39434,7 +39493,8 @@
 	    return _react2.default.createElement(
 	      "div",
 	      {
-	        className: "react-datepicker__time-container " + (this.props.todayButton ? "react-datepicker__time-container--with-today-button" : "") },
+	        className: "react-datepicker__time-container " + (this.props.todayButton ? "react-datepicker__time-container--with-today-button" : "")
+	      },
 	      _react2.default.createElement(
 	        "div",
 	        { className: "react-datepicker__header react-datepicker__header--time" },
@@ -39457,7 +39517,8 @@
 	              ref: function ref(list) {
 	                _this2.list = list;
 	              },
-	              style: height ? { height: height } : {} },
+	              style: height ? { height: height } : {}
+	            },
 	            this.renderTimes.bind(this)()
 	          )
 	        )
@@ -39558,7 +39619,8 @@
 	        {
 	          className: classes,
 	          modifiers: popperModifiers,
-	          placement: popperPlacement },
+	          placement: popperPlacement
+	        },
 	        popperComponent
 	      );
 	    }
@@ -39614,55 +39676,139 @@
 /* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	/*!
+	 * React Popper 0.8.3
+	 * https://github.com/souporserious/react-popper
+	 * Copyright (c) 2018 React Popper Authors
+	 */
+	(function webpackUniversalModuleDefinition(root, factory) {
+		if(true)
+			module.exports = factory(__webpack_require__(2), __webpack_require__(201));
+		else if(typeof define === 'function' && define.amd)
+			define(["react", "prop-types"], factory);
+		else if(typeof exports === 'object')
+			exports["ReactPopper"] = factory(require("react"), require("prop-types"));
+		else
+			root["ReactPopper"] = factory(root["React"], root["PropTypes"]);
+	})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_1__) {
+	return /******/ (function(modules) { // webpackBootstrap
+	/******/ 	// The module cache
+	/******/ 	var installedModules = {};
+	/******/
+	/******/ 	// The require function
+	/******/ 	function __webpack_require__(moduleId) {
+	/******/
+	/******/ 		// Check if module is in cache
+	/******/ 		if(installedModules[moduleId]) {
+	/******/ 			return installedModules[moduleId].exports;
+	/******/ 		}
+	/******/ 		// Create a new module (and put it into the cache)
+	/******/ 		var module = installedModules[moduleId] = {
+	/******/ 			i: moduleId,
+	/******/ 			l: false,
+	/******/ 			exports: {}
+	/******/ 		};
+	/******/
+	/******/ 		// Execute the module function
+	/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+	/******/
+	/******/ 		// Flag the module as loaded
+	/******/ 		module.l = true;
+	/******/
+	/******/ 		// Return the exports of the module
+	/******/ 		return module.exports;
+	/******/ 	}
+	/******/
+	/******/
+	/******/ 	// expose the modules object (__webpack_modules__)
+	/******/ 	__webpack_require__.m = modules;
+	/******/
+	/******/ 	// expose the module cache
+	/******/ 	__webpack_require__.c = installedModules;
+	/******/
+	/******/ 	// define getter function for harmony exports
+	/******/ 	__webpack_require__.d = function(exports, name, getter) {
+	/******/ 		if(!__webpack_require__.o(exports, name)) {
+	/******/ 			Object.defineProperty(exports, name, {
+	/******/ 				configurable: false,
+	/******/ 				enumerable: true,
+	/******/ 				get: getter
+	/******/ 			});
+	/******/ 		}
+	/******/ 	};
+	/******/
+	/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+	/******/ 	__webpack_require__.n = function(module) {
+	/******/ 		var getter = module && module.__esModule ?
+	/******/ 			function getDefault() { return module['default']; } :
+	/******/ 			function getModuleExports() { return module; };
+	/******/ 		__webpack_require__.d(getter, 'a', getter);
+	/******/ 		return getter;
+	/******/ 	};
+	/******/
+	/******/ 	// Object.prototype.hasOwnProperty.call
+	/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+	/******/
+	/******/ 	// __webpack_public_path__
+	/******/ 	__webpack_require__.p = "dist/";
+	/******/
+	/******/ 	// Load entry module and return exports
+	/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+	/******/ })
+	/************************************************************************/
+	/******/ ([
+	/* 0 */
+	/***/ (function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_0__;
+
+	/***/ }),
+	/* 1 */
+	/***/ (function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
+
+	/***/ }),
+	/* 2 */
+	/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+	exports.Arrow = exports.Popper = exports.Target = exports.Manager = undefined;
 
-	var _Manager = __webpack_require__(342);
+	var _Manager2 = __webpack_require__(3);
 
-	Object.defineProperty(exports, 'Manager', {
-	  enumerable: true,
-	  get: function get() {
-	    return _interopRequireDefault(_Manager).default;
-	  }
-	});
+	var _Manager3 = _interopRequireDefault(_Manager2);
 
-	var _Target = __webpack_require__(343);
+	var _Target2 = __webpack_require__(4);
 
-	Object.defineProperty(exports, 'Target', {
-	  enumerable: true,
-	  get: function get() {
-	    return _interopRequireDefault(_Target).default;
-	  }
-	});
+	var _Target3 = _interopRequireDefault(_Target2);
 
-	var _Popper = __webpack_require__(344);
+	var _Popper2 = __webpack_require__(5);
 
-	Object.defineProperty(exports, 'Popper', {
-	  enumerable: true,
-	  get: function get() {
-	    return _interopRequireDefault(_Popper).default;
-	  }
-	});
+	var _Popper3 = _interopRequireDefault(_Popper2);
 
-	var _Arrow = __webpack_require__(346);
+	var _Arrow2 = __webpack_require__(8);
 
-	Object.defineProperty(exports, 'Arrow', {
-	  enumerable: true,
-	  get: function get() {
-	    return _interopRequireDefault(_Arrow).default;
-	  }
-	});
+	var _Arrow3 = _interopRequireDefault(_Arrow2);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/***/ }),
-/* 342 */
-/***/ (function(module, exports, __webpack_require__) {
+	exports.Manager = _Manager3.default;
+	exports.Target = _Target3.default;
+	exports.Popper = _Popper3.default;
+	exports.Arrow = _Arrow3.default;
 
-	'use strict';
+	/***/ }),
+	/* 3 */
+	/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -39670,9 +39816,9 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(2);
+	var _react = __webpack_require__(0);
 
-	var _propTypes = __webpack_require__(201);
+	var _propTypes = __webpack_require__(1);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -39748,11 +39894,12 @@
 	};
 	exports.default = Manager;
 
-/***/ }),
-/* 343 */
-/***/ (function(module, exports, __webpack_require__) {
+	/***/ }),
+	/* 4 */
+	/***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
+
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -39760,9 +39907,9 @@
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _react = __webpack_require__(2);
+	var _react = __webpack_require__(0);
 
-	var _propTypes = __webpack_require__(201);
+	var _propTypes = __webpack_require__(1);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -39814,11 +39961,12 @@
 
 	exports.default = Target;
 
-/***/ }),
-/* 344 */
-/***/ (function(module, exports, __webpack_require__) {
+	/***/ }),
+	/* 5 */
+	/***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
+
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -39828,13 +39976,13 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _react = __webpack_require__(2);
+	var _react = __webpack_require__(0);
 
-	var _propTypes = __webpack_require__(201);
+	var _propTypes = __webpack_require__(1);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
-	var _popper = __webpack_require__(345);
+	var _popper = __webpack_require__(6);
 
 	var _popper2 = _interopRequireDefault(_popper);
 
@@ -40062,10 +40210,12 @@
 	};
 	exports.default = Popper;
 
-/***/ }),
-/* 345 */
-/***/ (function(module, exports, __webpack_require__) {
+	/***/ }),
+	/* 6 */
+	/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+	"use strict";
+	Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	/* WEBPACK VAR INJECTION */(function(global) {/**!
 	 * @fileOverview Kickass library to create and place poppers near their reference elements.
 	 * @version 1.12.9
@@ -40090,12 +40240,6 @@
 	 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	 * SOFTWARE.
 	 */
-	(function (global, factory) {
-		 true ? module.exports = factory() :
-		typeof define === 'function' && define.amd ? define(factory) :
-		(global.Popper = factory());
-	}(this, (function () { 'use strict';
-
 	var isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined';
 	var longerTimeoutBrowsers = ['Edge', 'Trident', 'Firefox'];
 	var timeoutDuration = 0;
@@ -42507,18 +42651,44 @@
 	Popper.placements = placements;
 	Popper.Defaults = Defaults;
 
-	return Popper;
-
-	})));
+	/* harmony default export */ __webpack_exports__["default"] = (Popper);
 	//# sourceMappingURL=popper.js.map
 
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(7)))
 
-/***/ }),
-/* 346 */
-/***/ (function(module, exports, __webpack_require__) {
+	/***/ }),
+	/* 7 */
+	/***/ (function(module, exports) {
 
-	'use strict';
+	var g;
+
+	// This works in non-strict mode
+	g = (function() {
+		return this;
+	})();
+
+	try {
+		// This works if eval is allowed (see CSP)
+		g = g || Function("return this")() || (1,eval)("this");
+	} catch(e) {
+		// This works if the window reference is available
+		if(typeof window === "object")
+			g = window;
+	}
+
+	// g can still be undefined, but nothing to do about it...
+	// We return undefined, instead of nothing here, so it's
+	// easier to handle this case. if(!global) { ...}
+
+	module.exports = g;
+
+
+	/***/ }),
+	/* 8 */
+	/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -42526,9 +42696,9 @@
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _react = __webpack_require__(2);
+	var _react = __webpack_require__(0);
 
-	var _propTypes = __webpack_require__(201);
+	var _propTypes = __webpack_require__(1);
 
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -42586,8 +42756,12 @@
 
 	exports.default = Arrow;
 
+	/***/ })
+	/******/ ]);
+	});
+
 /***/ }),
-/* 347 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42643,7 +42817,7 @@
 	exports.default = CodeExampleComponent;
 
 /***/ }),
-/* 348 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42730,7 +42904,7 @@
 	exports.default = CustomDateFormat;
 
 /***/ }),
-/* 349 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42807,7 +42981,7 @@
 	exports.default = CustomClassName;
 
 /***/ }),
-/* 350 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42884,7 +43058,7 @@
 	exports.default = CustomCalendarClassName;
 
 /***/ }),
-/* 351 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42963,7 +43137,7 @@
 	exports.default = CustomDayClassNames;
 
 /***/ }),
-/* 352 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43003,7 +43177,7 @@
 	}
 
 /***/ }),
-/* 353 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43103,7 +43277,7 @@
 	exports.default = SpecificDateRange;
 
 /***/ }),
-/* 354 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43190,7 +43364,7 @@
 	exports.default = CustomStartDate;
 
 /***/ }),
-/* 355 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43281,7 +43455,7 @@
 	exports.default = ExcludeDates;
 
 /***/ }),
-/* 356 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43372,7 +43546,7 @@
 	exports.default = highlightDates;
 
 /***/ }),
-/* 357 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43506,7 +43680,7 @@
 	exports.default = highlightDatesRanges;
 
 /***/ }),
-/* 358 */
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43597,7 +43771,7 @@
 	exports.default = includeDates;
 
 /***/ }),
-/* 359 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43687,7 +43861,7 @@
 	exports.default = FilterDates;
 
 /***/ }),
-/* 360 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43774,7 +43948,7 @@
 	exports.default = Disabled;
 
 /***/ }),
-/* 361 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -43864,7 +44038,7 @@
 	exports.default = DisabledKeyboardNavigation;
 
 /***/ }),
-/* 362 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43942,7 +44116,7 @@
 	exports.default = ClearInput;
 
 /***/ }),
-/* 363 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44044,7 +44218,7 @@
 	exports.default = Disabled;
 
 /***/ }),
-/* 364 */
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44133,7 +44307,7 @@
 	exports.default = ConfigurePopper;
 
 /***/ }),
-/* 365 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44235,7 +44409,7 @@
 	exports.default = DateRange;
 
 /***/ }),
-/* 366 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44315,7 +44489,7 @@
 	exports.default = DateRangeWithShowDisabledNavigation;
 
 /***/ }),
-/* 367 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44392,7 +44566,7 @@
 	exports.default = TabIndex;
 
 /***/ }),
-/* 368 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44472,7 +44646,7 @@
 	exports.default = YearDropdown;
 
 /***/ }),
-/* 369 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44549,7 +44723,7 @@
 	exports.default = MonthDropdown;
 
 /***/ }),
-/* 370 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44630,7 +44804,7 @@
 	exports.default = MonthYearDropdown;
 
 /***/ }),
-/* 371 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -44708,7 +44882,7 @@
 	exports.default = MonthDropdownShort;
 
 /***/ }),
-/* 372 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44788,7 +44962,7 @@
 	exports.default = YearDropdown;
 
 /***/ }),
-/* 373 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -44865,7 +45039,7 @@
 	exports.default = Today;
 
 /***/ }),
-/* 374 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45015,7 +45189,7 @@
 	exports.default = TimeZoneDate;
 
 /***/ }),
-/* 375 */
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45092,7 +45266,7 @@
 	exports.default = Inline;
 
 /***/ }),
-/* 376 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45170,7 +45344,7 @@
 	exports.default = OpenToDate;
 
 /***/ }),
-/* 377 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45250,7 +45424,7 @@
 	exports.default = FixedCalendar;
 
 /***/ }),
-/* 378 */
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45327,7 +45501,7 @@
 	exports.default = Default;
 
 /***/ }),
-/* 379 */
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45436,7 +45610,7 @@
 	exports.default = CustomInput;
 
 /***/ }),
-/* 380 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45513,7 +45687,7 @@
 	exports.default = MultiMonth;
 
 /***/ }),
-/* 381 */
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45591,7 +45765,7 @@
 	exports.default = MultiMonthDrp;
 
 /***/ }),
-/* 382 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -45675,7 +45849,7 @@
 	exports.default = Children;
 
 /***/ }),
-/* 383 */
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45752,7 +45926,7 @@
 	exports.default = WithPortal;
 
 /***/ }),
-/* 384 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45842,7 +46016,7 @@
 	exports.default = InlinePortalVersion;
 
 /***/ }),
-/* 385 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -45929,7 +46103,7 @@
 	exports.default = RawChanges;
 
 /***/ }),
-/* 386 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -46016,7 +46190,94 @@
 	exports.default = ShowTime;
 
 /***/ }),
-/* 387 */
+/* 382 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	exports.__esModule = true;
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactDatepicker = __webpack_require__(198);
+
+	var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+	var _moment = __webpack_require__(209);
+
+	var _moment2 = _interopRequireDefault(_moment);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var ShowTimeOnly = function (_React$Component) {
+	  _inherits(ShowTimeOnly, _React$Component);
+
+	  function ShowTimeOnly(props) {
+	    _classCallCheck(this, ShowTimeOnly);
+
+	    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
+
+	    _this.handleChange = function (date) {
+	      _this.setState({
+	        startDate: date
+	      });
+	    };
+
+	    _this.state = {
+	      startDate: (0, _moment2.default)()
+	    };
+	    return _this;
+	  }
+
+	  ShowTimeOnly.prototype.render = function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      { className: "row" },
+	      _react2.default.createElement(
+	        "pre",
+	        { className: "column example__code" },
+	        _react2.default.createElement(
+	          "code",
+	          { className: "jsx" },
+	          "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}",
+	          _react2.default.createElement("br", null),
+	          _react2.default.createElement(
+	            "strong",
+	            null,
+	            "    showTimeSelect\n    showTimeSelectOnly\n    timeIntervals={15}\n    dateFormat=\"LT\"\n    timeCaption=\"Time\"\n/>\n"
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        "div",
+	        { className: "column" },
+	        _react2.default.createElement(_reactDatepicker2.default, {
+	          selected: this.state.startDate,
+	          onChange: this.handleChange,
+	          showTimeSelect: true,
+	          showTimeSelectOnly: true,
+	          timeIntervals: 15,
+	          timeCaption: "Time",
+	          dateFormat: "LT" })
+	      )
+	    );
+	  };
+
+	  return ShowTimeOnly;
+	}(_react2.default.Component);
+
+	exports.default = ShowTimeOnly;
+
+/***/ }),
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -46116,7 +46377,7 @@
 	exports.default = ExcludeTimes;
 
 /***/ }),
-/* 388 */
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -46215,7 +46476,7 @@
 	exports.default = ExcludeTimePeriod;
 
 /***/ }),
-/* 389 */
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -46315,7 +46576,7 @@
 	exports.default = IncludeTimes;
 
 /***/ }),
-/* 390 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -46392,7 +46653,7 @@
 	exports.default = DontCloseOnSelect;
 
 /***/ }),
-/* 391 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -46469,15 +46730,15 @@
 	exports.default = OpenByDefault;
 
 /***/ }),
-/* 392 */
+/* 388 */
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 393 */
-392,
-/* 394 */
+/* 389 */
+388,
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
