@@ -19168,6 +19168,15 @@
 	var outsideClickIgnoreClass = "react-datepicker-ignore-onclickoutside";
 	var WrappedCalendar = (0, _reactOnclickoutside2.default)(_calendar2.default);
 
+	// Compares dates year+month combinations
+	function hasPreSelectionChanged(date1, date2) {
+	  if (date1 && date2) {
+	    return (0, _date_utils.getMonth)(date1) !== (0, _date_utils.getMonth)(date2) || (0, _date_utils.getYear)(date1) !== (0, _date_utils.getYear)(date2);
+	  }
+
+	  return date1 !== date2;
+	}
+
 	/**
 	 * General datepicker component.
 	 */
@@ -19239,7 +19248,7 @@
 	    };
 
 	    _this.setFocus = function () {
-	      if (_this.input.focus) {
+	      if (_this.input && _this.input.focus) {
 	        _this.input.focus();
 	      }
 	    };
@@ -19581,9 +19590,7 @@
 	  }
 
 	  DatePicker.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-	    var currentMonth = this.props.selected && (0, _date_utils.getMonth)(this.props.selected);
-	    var nextMonth = nextProps.selected && (0, _date_utils.getMonth)(nextProps.selected);
-	    if (this.props.inline && currentMonth !== nextMonth) {
+	    if (this.props.inline && hasPreSelectionChanged(this.props.selected, nextProps.selected)) {
 	      this.setPreSelection(nextProps.selected);
 	    }
 	    if (this.props.highlightDates !== nextProps.highlightDates) {
@@ -45124,7 +45131,8 @@
 	        _react2.default.createElement(_reactDatepicker2.default, {
 	          inline: true,
 	          selected: this.state.startDate,
-	          onChange: this.handleChange })
+	          onChange: this.handleChange
+	        })
 	      )
 	    );
 	  };
