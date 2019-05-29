@@ -126,7 +126,11 @@ export default class Calendar extends React.Component {
     renderCustomHeader: PropTypes.func,
     renderDayContents: PropTypes.func,
     onDayMouseEnter: PropTypes.func,
-    onMonthMouseLeave: PropTypes.func
+    onMonthMouseLeave: PropTypes.func,
+    headerClassName: PropTypes.string,
+    headerDayClassName: PropTypes.string,
+    headerCurrentMonthNamesClassName: PropTypes.string,
+    headerCurrentMonthNameClassName: PropTypes.string
   };
 
   static get defaultProps() {
@@ -302,7 +306,7 @@ export default class Calendar extends React.Component {
     const dayNames = [];
     if (this.props.showWeekNumbers) {
       dayNames.push(
-        <div key="W" className="react-datepicker__day-name">
+        <div key="W" className={this.props.headerCurrentMonthNameClassName}>
           {this.props.weekLabel || "#"}
         </div>
       );
@@ -312,7 +316,10 @@ export default class Calendar extends React.Component {
         const day = addDays(startOfWeek, offset);
         const weekDayName = this.formatWeekday(day, this.props.locale);
         return (
-          <div key={offset} className="react-datepicker__day-name">
+          <div
+            key={offset}
+            className={this.props.headerCurrentMonthNameClassName}
+          >
             {weekDayName}
           </div>
         );
@@ -447,7 +454,7 @@ export default class Calendar extends React.Component {
   };
 
   renderCurrentMonth = (date = this.state.date) => {
-    const classes = ["react-datepicker__current-month"];
+    const classes = [this.props.headerCurrentMonthNamesClassName];
 
     if (this.props.showYearDropdown) {
       classes.push("react-datepicker__current-month--hasYearDropdown");
@@ -533,8 +540,10 @@ export default class Calendar extends React.Component {
     );
   };
 
+  //<div className="react-datepicker__header">
+  // <div className="react-datepicker__day-names">
   renderDefaultHeader = ({ monthDate, i }) => (
-    <div className="react-datepicker__header">
+    <div className={this.props.headerClassName}>
       {this.renderCurrentMonth(monthDate)}
       <div
         className={`react-datepicker__header__dropdown react-datepicker__header__dropdown--${
@@ -546,7 +555,7 @@ export default class Calendar extends React.Component {
         {this.renderMonthYearDropdown(i !== 0)}
         {this.renderYearDropdown(i !== 0)}
       </div>
-      <div className="react-datepicker__day-names">
+      <div className={this.props.headerDayClassName}>
         {this.header(monthDate)}
       </div>
     </div>
@@ -581,7 +590,7 @@ export default class Calendar extends React.Component {
           prevMonthButtonDisabled,
           nextMonthButtonDisabled
         })}
-        <div className="react-datepicker__day-names">
+        <div className={this.props.headerDayClassName}>
           {this.header(monthDate)}
         </div>
       </div>
@@ -597,6 +606,7 @@ export default class Calendar extends React.Component {
   };
 
   renderMonths = () => {
+    debugger;
     if (this.props.showTimeSelectOnly) {
       return;
     }

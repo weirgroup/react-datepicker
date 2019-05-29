@@ -1,5 +1,6 @@
 import React from "react";
 import DatePicker from "react-datepicker";
+import "../../images/styles.css";
 
 export default class Default extends React.Component {
   constructor(props) {
@@ -32,6 +33,10 @@ export default class Default extends React.Component {
           <DatePicker
             selected={this.state.startDate}
             onChange={this.handleChange}
+            headerClassName="datePickerHeader" // {styles.WcustomHeader}
+            headerCurrentMonthNamesClassName="datePickerCurrentMonthName"
+            headerDayClassName="datePickerHeaderDay"
+            headerCurrentMonthNameClassName="datePickerHeaderDays"
           />
         </div>
       </div>

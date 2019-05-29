@@ -175,7 +175,11 @@ export default class DatePicker extends React.Component {
     renderDayContents: PropTypes.func,
     inlineFocusSelectedMonth: PropTypes.bool,
     onDayMouseEnter: PropTypes.func,
-    onMonthMouseLeave: PropTypes.func
+    onMonthMouseLeave: PropTypes.func,
+    headerClassName: PropTypes.string,
+    headerDayClassName: PropTypes.string,
+    headerCurrentMonthNamesClassName: PropTypes.string,
+    headerCurrentMonthNameClassName: PropTypes.string
   };
 
   static get defaultProps() {
@@ -256,10 +260,10 @@ export default class DatePicker extends React.Component {
     this.props.openToDate
       ? this.props.openToDate
       : this.props.selectsEnd && this.props.startDate
-        ? this.props.startDate
-        : this.props.selectsStart && this.props.endDate
-          ? this.props.endDate
-          : newDate();
+      ? this.props.startDate
+      : this.props.selectsStart && this.props.endDate
+      ? this.props.endDate
+      : newDate();
 
   calcInitialState = () => {
     const defaultPreSelection = this.getPreSelection();
@@ -269,8 +273,8 @@ export default class DatePicker extends React.Component {
       minDate && isBefore(defaultPreSelection, minDate)
         ? minDate
         : maxDate && isAfter(defaultPreSelection, maxDate)
-          ? maxDate
-          : defaultPreSelection;
+        ? maxDate
+        : defaultPreSelection;
     return {
       open: this.props.startOpen || false,
       preventFocus: false,
@@ -483,7 +487,11 @@ export default class DatePicker extends React.Component {
     let isValidDateSelection = true;
     if (date) {
       if (hasMinDate && hasMaxDate) {
-        isValidDateSelection = isDayInRange(date, this.props.minDate, this.props.maxDate);
+        isValidDateSelection = isDayInRange(
+          date,
+          this.props.minDate,
+          this.props.maxDate
+        );
       } else if (hasMinDate) {
         isValidDateSelection = isAfter(date, this.props.minDate);
       } else if (hasMaxDate) {
@@ -700,6 +708,14 @@ export default class DatePicker extends React.Component {
         onMonthMouseLeave={this.props.onMonthMouseLeave}
         showTimeInput={this.props.showTimeInput}
         showMonthYearPicker={this.props.showMonthYearPicker}
+        headerClassName={this.props.headerClassName}
+        headerDayClassName={this.props.headerDayClassName}
+        headerCurrentMonthNamesClassName={
+          this.props.headerCurrentMonthNamesClassName
+        }
+        headerCurrentMonthNameClassName={
+          this.props.headerCurrentMonthNameClassName
+        }
       >
         {this.props.children}
       </WrappedCalendar>
@@ -717,8 +733,8 @@ export default class DatePicker extends React.Component {
       typeof this.props.value === "string"
         ? this.props.value
         : typeof this.state.inputValue === "string"
-          ? this.state.inputValue
-          : safeDateFormat(this.props.selected, this.props);
+        ? this.state.inputValue
+        : safeDateFormat(this.props.selected, this.props);
 
     return React.cloneElement(customInput, {
       [customInputRef]: input => {
