@@ -845,11 +845,11 @@
   letter-spacing: 1px;
 }
 
-.react-datepicker-time__input_custom {
-  width: 82%;
-  font-family: Roboto;
-  font-size: 12px;
-}
+// .react-datepicker-time__input_custom {
+//   width: 82%;
+//   font-family: Roboto;
+//   font-size: 12px;
+// }
 
 .react-datepicker__input-time-container {
   margin: 16px 10px;
@@ -860,9 +860,9 @@
   display: block;
 }
 
-.react-datepicker__input-time-container .react-datepicker-time__caption {
-  padding: 10px;
-}
+// .react-datepicker__input-time-container .react-datepicker-time__caption {
+//   padding: 10px;
+// }
 
 .react-datepicker__input-time-container {
   margin: 0px 0px;
@@ -875,10 +875,10 @@
   background-size: cover;
 }
 
-.react-datepicker__input-time-container
-  .react-datepicker-time__input-container {
-  padding: 8px;
-}
+// .react-datepicker__input-time-container
+//   .react-datepicker-time__input-container {
+//   padding: 8px;
+// }
 
 .react-datepicker__month:last-child {
   padding-bottom: 10px;
@@ -975,4 +975,77 @@
 .react-datepicker-popper[data-placement^="bottom"]
   .react-datepicker__triangle::before {
   border: none;
+}
+
+/* Below Section includes the time field DLS style */
+@at-root .react-datepicker__input-time-container
+    .react-datepicker-time__caption {
+  height: 9px;
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: #72808a;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  border: none;
+  padding: 5px 0px 0px 14px;
+}
+
+.react-datepicker__input-time-container
+  .react-datepicker-time__input-container {
+  padding: 0px 0px 23px 14px;
+}
+
+.react-datepicker-time__input_custom {
+  width: 227px;
+  height: 36px;
+  padding: 0px 10px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #2d343d;
+  text-decoration: none solid rgb(160, 170, 177);
+  box-shadow: none;
+}
+
+.react-datepicker-time__input_custom:focus {
+  border-color: #005eb8;
+  box-shadow: none;
+}
+
+input[type="time"]::-webkit-inner-spin-button {
+  // -webkit-appearance: none;
+  // cursor:pointer;
+  // display:block;
+  // width:8px;
+  // color: #333;
+  // text-align:center;
+  // position:relative;
+  background: #005eb8 url("http://i.stack.imgur.com/YYySO.png") no-repeat 50%
+    50%;
+  width: 14px;
+  height: 14px;
+  padding: 4px;
+  position: relative;
+  border-radius: 28px;
+  margin-top: 8px;
+}
+
+input[type="time"]:hover::-webkit-inner-spin-button {
+  background: #005eb8 url("http://i.stack.imgur.com/YYySO.png") no-repeat 50%
+    50%;
+  width: 14px;
+  height: 14px;
+  padding: 4px;
+  position: relative;
+  border-radius: 28px;
+}
+
+.react-datepicker-time__input_custom::placeholder {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  color: #72808a;
+  font-weight: Regular;
+  line-height: 20px;
 }

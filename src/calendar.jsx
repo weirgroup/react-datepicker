@@ -126,7 +126,8 @@ export default class Calendar extends React.Component {
     renderCustomHeader: PropTypes.func,
     renderDayContents: PropTypes.func,
     onDayMouseEnter: PropTypes.func,
-    onMonthMouseLeave: PropTypes.func
+    onMonthMouseLeave: PropTypes.func,
+    time: PropTypes.string
   };
 
   static get defaultProps() {
@@ -688,6 +689,7 @@ export default class Calendar extends React.Component {
   };
 
   renderInputTimeSection = () => {
+    debugger;
     const time = new Date(this.props.selected);
     const timeString = `${addZero(time.getHours())}:${addZero(
       time.getMinutes()
@@ -698,6 +700,7 @@ export default class Calendar extends React.Component {
           timeString={timeString}
           timeInputLabel={this.props.timeInputLabel}
           onChange={this.props.onTimeChange}
+          time={this.props.selected}
         />
       );
     }
