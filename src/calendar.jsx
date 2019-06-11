@@ -126,8 +126,7 @@ export default class Calendar extends React.Component {
     renderCustomHeader: PropTypes.func,
     renderDayContents: PropTypes.func,
     onDayMouseEnter: PropTypes.func,
-    onMonthMouseLeave: PropTypes.func,
-    time: PropTypes.string
+    onMonthMouseLeave: PropTypes.func
   };
 
   static get defaultProps() {
@@ -461,7 +460,11 @@ export default class Calendar extends React.Component {
     }
     return (
       <div className={classes.join(" ")}>
-        {formatDate(date, this.props.dateFormat, this.props.locale)}
+        {formatDate(
+          date,
+          this.props.dateFormat,
+          this.props.locale
+        ).toUpperCase()}
       </div>
     );
   };
@@ -537,6 +540,7 @@ export default class Calendar extends React.Component {
   renderDefaultHeader = ({ monthDate, i }) => (
     <div className="react-datepicker__header">
       {this.renderCurrentMonth(monthDate)}
+
       <div
         className={`react-datepicker__header__dropdown react-datepicker__header__dropdown--${
           this.props.dropdownMode
@@ -689,7 +693,6 @@ export default class Calendar extends React.Component {
   };
 
   renderInputTimeSection = () => {
-    debugger;
     const time = new Date(this.props.selected);
     const timeString = `${addZero(time.getHours())}:${addZero(
       time.getMinutes()

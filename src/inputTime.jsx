@@ -27,7 +27,6 @@ export default class inputTime extends React.Component {
   };
 
   render() {
-    debugger;
     // const { time } = this.state;
     const { timeString } = this.props;
     let { time } = this.props;
