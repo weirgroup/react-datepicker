@@ -1015,31 +1015,13 @@
 }
 
 input[type="time"]::-webkit-inner-spin-button {
-  // -webkit-appearance: none;
-  // cursor:pointer;
-  // display:block;
-  // width:8px;
-  // color: #333;
-  // text-align:center;
-  // position:relative;
-  background: #005eb8 url("http://i.stack.imgur.com/YYySO.png") no-repeat 50%
-    50%;
+  // background: #005eb8 url("http://i.stack.imgur.com/YYySO.png") no-repeat 50% 50%;
   width: 14px;
   height: 14px;
   padding: 4px;
   position: relative;
   border-radius: 28px;
   margin-top: 8px;
-}
-
-input[type="time"]:hover::-webkit-inner-spin-button {
-  background: #005eb8 url("http://i.stack.imgur.com/YYySO.png") no-repeat 50%
-    50%;
-  width: 14px;
-  height: 14px;
-  padding: 4px;
-  position: relative;
-  border-radius: 28px;
 }
 
 .react-datepicker-time__input_custom::placeholder {
