@@ -39,7 +39,7 @@ export default class Default extends React.Component {
             timeInputLabel="SELECT TIME"
             showTimeInput
           />
-          {/* <DatePicker
+          <DatePicker
             selected={this.state.startDate}
             onChange={this.handleChange}
             dateFormat="dd/MM/yyyy h:mm:ss aa"
@@ -77,7 +77,7 @@ export default class Default extends React.Component {
             DateTimePickerTitle="DATE AND TIME"
             DateTimePickerRequired="Required"
             disabled
-          /> */}
+          />
         </div>
       </div>
     );
