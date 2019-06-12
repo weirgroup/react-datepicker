@@ -916,7 +916,7 @@
 .datetimepickerTitle {
   height: 9px;
   font-family: "Roboto";
-  // font-weight: bold;
+  font-weight: bold;
   font-size: 1.2rem;
   color: #72808a;
   line-height: 2rem;
@@ -1006,11 +1006,13 @@
   color: #2d343d;
   text-decoration: none solid rgb(160, 170, 177);
   box-shadow: none;
+  border: solid 1px #d0d4d8;
 }
 
 .react-datepicker-time__input_custom:focus {
   border-color: #005eb8;
   box-shadow: none;
+  border: solid 1px #d0d4d8;
 }
 
 input[type="time"]::-webkit-inner-spin-button {
