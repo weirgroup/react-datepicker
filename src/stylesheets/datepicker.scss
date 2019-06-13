@@ -720,11 +720,12 @@
 
 .react-datepicker__day-name {
   font-family: "Roboto";
-  font-size: 11px;
+  font-size: 13px;
   color: #a0aab1;
   text-decoration: none solid rgb(160, 170, 177);
   text-align: center;
-  padding: 2px 5px;
+  padding: 8px 5px;
+  width: 2.5rem;
 }
 
 .react-datepicker__month {
@@ -757,7 +758,8 @@
   color: #2d343d;
   text-decoration: none solid rgb(45, 52, 61);
   text-align: center;
-  padding: 2px 5px;
+  padding: 5px 5px;
+  width: 2.5rem;
 }
 
 .react-datepicker__day--selected,
@@ -881,7 +883,7 @@
 // }
 
 .react-datepicker__month:last-child {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 /* Below CSS Section inludes the entryFieldDatepicker DLS stylinhg*/
@@ -907,7 +909,7 @@
 
 .entryFieldDatepicker::placeholder {
   font-family: "Roboto";
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #72808a;
   font-weight: Regular;
   line-height: 20px;
@@ -916,7 +918,7 @@
 .datetimepickerTitle {
   height: 9px;
   font-family: "Roboto";
-  // font-weight: bold;
+  font-weight: bold;
   font-size: 1.2rem;
   color: #72808a;
   line-height: 2rem;
@@ -981,12 +983,13 @@
 .react-datepicker__input-time-container .react-datepicker-time__caption {
   height: 9px;
   font-family: "Roboto";
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #72808a;
   line-height: 2rem;
   letter-spacing: 1px;
   border: none;
-  padding: 5px 0px 0px 14px;
+  padding: 8px 0px 12px 14px;
+  font-weight: bold;
 }
 
 .react-datepicker__input-time-container
@@ -1006,11 +1009,13 @@
   color: #2d343d;
   text-decoration: none solid rgb(160, 170, 177);
   box-shadow: none;
+  border: solid 1px #d0d4d8;
 }
 
 .react-datepicker-time__input_custom:focus {
   border-color: #005eb8;
   box-shadow: none;
+  border: solid 1px #d0d4d8;
 }
 
 input[type="time"]::-webkit-inner-spin-button {
