@@ -5,14 +5,16 @@ export default class inputTime extends React.Component {
   static propTypes = {
     onChange: PropTypes.func,
     timeString: PropTypes.string,
-    timeInputLabel: PropTypes.string
+    timeInputLabel: PropTypes.string,
+    time: PropTypes.string
   };
 
   constructor(props) {
     super(props);
 
+    // time: this.props.timeString
     this.state = {
-      time: this.props.timeString
+      time: null
     };
   }
 
@@ -25,18 +27,22 @@ export default class inputTime extends React.Component {
   };
 
   render() {
-    const { time } = this.state;
+    // const { time } = this.state;
     const { timeString } = this.props;
+    let { time } = this.props;
+    if (time !== null) {
+      time = timeString;
+    }
     return (
       <div className="react-datepicker__input-time-container">
         <div className="react-datepicker-time__caption">
           {this.props.timeInputLabel}
         </div>
         <div className="react-datepicker-time__input-container">
-          <div className="react-datepicker-time__input">
+          <div className="react-datepicker-time__input_customDiv">
             <input
               type="time"
-              className="react-datepicker-time__input"
+              className="react-datepicker-time__input_custom"
               placeholder="Time"
               name="time-input"
               required
