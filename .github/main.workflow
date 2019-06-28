@@ -11,7 +11,7 @@ action "GitHub Action for npm" {
 action "GitHub Action for npm-1" {
   uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
   needs = ["GitHub Action for npm"]
-  args = "run build:umd:dev"
+  args = "run build"
 }
 
 action "weirgroup/devops-actions/weir-cmd@master" {
