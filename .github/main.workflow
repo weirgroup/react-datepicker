@@ -30,5 +30,6 @@ action "weirgroup/devops-actions/weir-cmd@master-1" {
 action "Push-Dist" {
   uses = "weirgroup/devops-actions/weir-cmd@master"
   needs = ["weirgroup/devops-actions/weir-cmd@master-1"]
-  args = "cd react-datepicker && git add -A && git config user.email $CONFIG_USER_EMAIL && git config user.name $CONFIG_USER_NAME && git commit -m "Adding new build" && git push origin dist"
+  secrets = ["CONFIG_USER_EMAIL", "CONFIG_USER_NAME"]
+  args = "cd react-datepicker && git add -A && git config user.email $CONFIG_USER_EMAIL && git config user.name $CONFIG_USER_NAME && git commit -m \"Adding new build\" && git push origin dist"
 }
