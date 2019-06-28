@@ -1,6 +1,6 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["weirgroup/devops-actions/weir-cmd@master-1"]
+  resolves = ["Push-Dist"]
 }
 
 action "GitHub Action for npm" {
@@ -25,4 +25,10 @@ action "weirgroup/devops-actions/weir-cmd@master-1" {
   uses = "weirgroup/devops-actions/weir-cmd@master"
   needs = ["weirgroup/devops-actions/weir-cmd@master"]
   args = "rm -rf react-datepicker/* react-datepicker/.github react-datepicker/.travis.yml react-datepicker/.editorconfig react-datepicker/.gitignore && cp -R dist package.json README.md react-datepicker"
+}
+
+action "Push-Dist" {
+  uses = "weirgroup/devops-actions/weir-cmd@master"
+  needs = ["weirgroup/devops-actions/weir-cmd@master-1"]
+  args = "cd react-datepicker && git add -A && git config user.email $CONFIG_USER_EMAIL && git config user.name $CONFIG_USER_NAME && git commit -m "Adding new build" && git push origin dist"
 }
