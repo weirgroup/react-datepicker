@@ -464,7 +464,7 @@ export default class Calendar extends React.Component {
           date,
           this.props.dateFormat,
           this.props.locale
-        )}
+        ).toUpperCase()}
       </div>
     );
   };
